@@ -1,0 +1,11 @@
+usando esta paleta de cor 
+FFFEFE
+CDB648
+A13027
+black 
+
+black letras
+FFFEFE header
+
+o fundo de tudo deve ser 
+FFFEFE
