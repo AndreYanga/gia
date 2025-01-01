@@ -40,12 +40,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Pagina Inicial</a></li>
-          <li><a href="#about">Sobre Nós</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#gallery">Galeria</a></li>
-          <li><a href="#partners">Parceiros</a></li>
-          <li><a href="#contact">Contacto</a></li>
+          <li><a href="index.html" class="active">Pagina Inicial</a></li>
+          <li><a href="about.html">Sobre Nós</a></li>
+          <li><a href="services.html">Serviços</a></li>
+          <li><a href="gallery.html" >Galeria</a></li>
+          <li><a href="partners.html">Parceiros</a></li>
+          <li><a href="contact.html" >Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -66,8 +66,8 @@
           </div>
 
           <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>Bem-vindo ao GIA <span>Gateway Internacional Angola, SA</span></h1>
-            <p>Conectando Angola ao Mundo com Segurança e Inovação</p>
+            <h1><span>Bem-vindo ao GIA Gateway Internacional Angola, SA</span></h1>
+            <p>Levando Angola ao Mundo e Trazendo o Mundo a Angola.</p>
             <div class="d-flex">
               <a href="#" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assista o Video</span></a>
             </div>
@@ -78,18 +78,28 @@
 
       <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
         <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
         </defs>
         <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
+            <use xlink:href="#wave-path" x="50" y="3" style="fill: #FFFEFE;"></use> <!-- Cor clara -->
         </g>
         <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
+            <use xlink:href="#wave-path" x="50" y="0" style="fill: #CDB648;"></use> <!-- Cor dourada -->
         </g>
         <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
+            <use xlink:href="#wave-path" x="50" y="9" style="fill: #A13027;"></use> <!-- Cor vermelha escura -->
         </g>
-      </svg>
+        <g class="wave4">
+            <use xlink:href="#wave-path" x="50" y="18" style="fill: #000000; opacity: 0.3;"></use> <!-- Cor preta -->
+        </g>
+        <g class="wave5">
+            <use xlink:href="#wave-path" x="50" y="21" style="fill: #000000; opacity: 0.2;"></use> <!-- Cor preta -->
+        </g>
+        <g class="wave6">
+            <use xlink:href="#wave-path" x="50" y="24" style="fill: #000000; opacity: 0.1;"></use> <!-- Cor preta -->
+        </g>
+    </svg>
+    
 
     </section><!-- /Hero Section -->
 
@@ -103,7 +113,7 @@
             <h3>Sobre o GIA</h3>
             <h2>Gateway Internacional Angola, SA</h2>
             <p>O GIA – Gateway Internacional Angola, SA é a força motriz por trás do controle e gestão do tráfego internacional de comunicações de Angola. Nascido de uma parceria público-privada entre o MTTICS (INFOSI) e a MGI Management, AG, o GIA foi inaugurado em 24 de março de 2021, pelo Ministro das Telecomunicações, Tecnologias de Informação e Comunicação Social, Manuel Homem. Localizado no Bairro dos CTT, em Luanda, nossa infraestrutura desempenha um papel essencial na proteção das telecomunicações nacionais.</p>
-            <a href="#" class="read-more"><span>Ler Mais</span><i class="bi bi-arrow-right"></i></a>
+            <a href="about.html" class="read-more"><span>Ler Mais</span><i class="bi bi-arrow-right"></i></a>
          
           </div>
 
@@ -133,7 +143,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service">
-              <div class="pic"><img src="assets/img/data_gia.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/VOZ.jpg" class="img-fluid" alt=""></div>
               <div class="service-info">
                 <h4>Comutação de Voz</h4>
                 <span>Serviço de gateway de voz internacional com gestão de tráfego, garantindo qualidade e preços competitivos.</span>
@@ -144,7 +154,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service">
-              <div class="pic"><img src="assets/img/data_gia.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/sms.jpg" class="img-fluid" alt=""></div>
               <div class="service-info">
                 
                   <h4>Comutação de Mensagens SMS</h4>
@@ -157,7 +167,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service">
-              <div class="pic"><img src="assets/img/data_gia.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/fraude.jpg" class="img-fluid" alt=""></div>
               <div class="service-info">
                 
                   <h4>Prevenção de Fraude</h4>
@@ -390,12 +400,12 @@
           <h4>Ligações Úteis</h4>
           <ul>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Página Inicial</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#about">Sobre Nós</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#services">Serviços</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#gallery">Galeria</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#partners">Parceiros</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contacto</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Página Inicial</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html">Sobre Nós</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html">Serviços</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="gallery.html">Galeria</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="partners.html">Parceiros</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Contacto</a></li>
             </ul>
           </ul>
         </div>
@@ -415,8 +425,7 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+  
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
