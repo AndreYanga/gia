@@ -1045,3 +1045,323 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+
+/* Ajustes gerais para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Reduzir padding geral das seções */
+  section,
+  .section {
+    padding: 40px 0;
+    scroll-margin-top: 60px;
+  }
+
+  /* Ajustar títulos das seções */
+  .section-title {
+    padding-bottom: 40px;
+  }
+
+  .section-title h2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .section-title div {
+    font-size: 24px;
+  }
+
+  .section-title h2::after {
+    width: 80px;
+    margin: 4px 8px;
+  }
+
+  /* Ajustar tipografia geral */
+  body {
+    font-size: 14px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+  }
+
+  /* Links e botões */
+  a {
+    font-size: 14px;
+  }
+
+  .btn-get-started,
+  .read-more,
+  .contact .php-email-form button[type=submit] {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}
+
+/* Header */
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 0;
+  }
+
+  .header .logo img {
+    max-height: 28px;
+    margin-right: 6px;
+  }
+
+  .header .logo h1 {
+    font-size: 24px;
+  }
+}
+
+/* Hero Section */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .hero .btn-get-started {
+    padding: 8px 24px;
+  }
+
+  .hero .hero-waves {
+    height: 40px;
+  }
+}
+
+/* About Section */
+@media (max-width: 768px) {
+  .about {
+    padding-top: 60px;
+  }
+
+  .about .content h2 {
+    font-size: 24px;
+  }
+
+  .about .content h3 {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .about .col-xl-7 img {
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .about .icon-box {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+
+  .about .icon-box h3 {
+    font-size: 20px;
+  }
+
+  .about .icon-box i {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .about .content .read-more {
+    padding: 10px 20px;
+  }
+}
+
+/* Gallery Section */
+@media (max-width: 768px) {
+  .gallery .gallery-item {
+    border-right: 2px solid var(--background-color);
+    border-bottom: 2px solid var(--background-color);
+  }
+
+  .gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Partners Section */
+@media (max-width: 768px) {
+  .partners .partners-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Services Section */
+@media (max-width: 768px) {
+  .services .service {
+    margin-bottom: 60px;
+  }
+
+  .services .service .pic {
+    margin-bottom: 40px;
+  }
+
+  .services .service .service-info {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .services .service h4 {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+
+  .services .service h4::after {
+    width: 40px;
+  }
+
+  .services .service span {
+    font-size: 14px;
+  }
+
+  .services .service .social {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 10px;
+  }
+
+  .services .service .social i {
+    font-size: 14px;
+  }
+}
+
+/* Contact Section */
+@media (max-width: 768px) {
+  .contact .info-item {
+    text-align: center;
+  }
+
+  .contact .info-item i {
+    margin: 0 auto 10px;
+  }
+
+  .contact .info-item h3 {
+    font-size: 16px;
+  }
+
+  .contact .info-item p {
+    font-size: 13px;
+  }
+
+  .contact .php-email-form input[type=text],
+  .contact .php-email-form input[type=email],
+  .contact .php-email-form textarea {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .contact .php-email-form button[type=submit] {
+    padding: 8px 25px;
+  }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  .footer .footer-top {
+    padding-top: 30px;
+  }
+
+  .footer .footer-about .logo img {
+    max-height: 36px;
+  }
+
+  .footer .footer-about .logo span {
+    font-size: 22px;
+  }
+
+  .footer .footer-about p {
+    font-size: 13px;
+  }
+
+  .footer .footer-links {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer .footer-links ul li {
+    padding: 8px 0;
+  }
+
+  .footer .footer-links ul li a {
+    font-size: 14px;
+  }
+
+  .footer .social-links a {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+
+  .footer .footer-contact p {
+    font-size: 13px;
+  }
+
+  .footer .copyright {
+    padding: 20px 0;
+  }
+
+  .footer .credits {
+    font-size: 12px;
+  }
+}
+
+/* Ajustes para telas muito pequenas (ex.: 576px ou menos) */
+@media (max-width: 576px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .section-title div {
+    font-size: 20px;
+  }
+
+  .about .content h2 {
+    font-size: 20px;
+  }
+
+  .services .service h4 {
+    font-size: 16px;
+  }
+
+  .contact .php-email-form input[type=text],
+  .contact .php-email-form input[type=email],
+  .contact .php-email-form textarea {
+    font-size: 12px;
+  }
+}
