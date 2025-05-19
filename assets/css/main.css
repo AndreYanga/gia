@@ -1253,19 +1253,50 @@ section,
 /* Contact Section */
 @media (max-width: 768px) {
   .contact .info-item {
-    text-align: center;
+    display: flex; /* Usa flexbox para alinhar ícone e texto */
+    align-items: flex-start; /* Alinha ao topo para consistência */
+    text-align: left; /* Alinha texto à esquerda para melhor legibilidade */
+    padding: 15px; /* Adiciona padding para respiro */
+    margin-bottom: 20px; /* Espaço entre itens */
+    background: color-mix(in srgb, var(--surface-color), transparent 95%); /* Fundo sutil para destaque */
+    border-radius: 8px; /* Bordas arredondadas para estética */
+    transition: all 0.3s ease; /* Transição suave para hover */
+  }
+
+  .contact .info-item:hover {
+    background: color-mix(in srgb, var(--surface-color), transparent 90%); /* Efeito hover sutil */
+    transform: translateY(-2px); /* Leve elevação no hover */
   }
 
   .contact .info-item i {
-    margin: 0 auto 10px;
+    margin: 0 15px 0 0; /* Margem à direita em vez de centralizado */
+    font-size: 18px; /* Aumenta ligeiramente o ícone */
+    width: 40px; /* Tamanho consistente */
+    height: 40px; /* Tamanho consistente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: color-mix(in srgb, var(--accent-color), transparent 92%);
+    color: var(--accent-color);
+    border-radius: 50%;
+    flex-shrink: 0; /* Evita que o ícone seja comprimido */
+  }
+
+  .contact .info-item .text-content {
+    flex: 1; /* O conteúdo de texto ocupa o espaço restante */
   }
 
   .contact .info-item h3 {
-    font-size: 16px;
+    font-size: 16px; /* Mantém o tamanho, mas pode ser ajustado */
+    font-weight: 600; /* Um pouco mais leve para equilíbrio */
+    margin-bottom: 5px; /* Espaço entre título e parágrafo */
+    color: var(--heading-color);
   }
 
   .contact .info-item p {
-    font-size: 13px;
+    font-size: 14px; /* Aumenta ligeiramente para legibilidade */
+    margin: 0; /* Remove margens extras */
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
   }
 
   .contact .php-email-form input[type=text],
