@@ -13,8 +13,8 @@
   /* Updated Colors */
   --background-color: #FFFEFE; /* Background color for the entire website, including individual sections */
   --default-color: #000000; /* Default color used for the majority of the text content across the entire website (Black) */
-  --heading-color: #A13027; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #CDB648; /* Accent color that represents your brand on the website. Used for buttons, links, and other elements that need to stand out */
+  --heading-color: #c03033; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #de9f35; /* Accent color that represents your brand on the website. Used for buttons, links, and other elements that need to stand out */
   --surface-color: #FFFEFE; /* The surface color used as a background for boxed elements within sections */
   --contrast-color: #000000; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors */
 }
@@ -22,7 +22,7 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #000000;  /* The default color of the main navmenu links */
-  --nav-hover-color: #CDB648; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #de9f35; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #FFFEFE; /* Used as the background color for mobile navigation menu */
 }
 
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #df1529;
+  background: #c03033;
   color: #ffffff;
   text-align: left;
   padding: 15px;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   --background-color: #FFFEFE;
   --default-color: #000000;
-  --heading-color: #A13027;
+  --heading-color: #c03033;
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 20px 0;
@@ -673,14 +673,14 @@ section,
 .hero .wave2 use {
   animation: move-forever2 8s linear infinite;
   animation-delay: -2s;
-  fill: #CDB648; /* Cor dourada */
+  fill: #de9f35; /* Cor dourada */
   opacity: 0.4;
 }
 
 .hero .wave3 use {
   animation: move-forever3 6s linear infinite;
   animation-delay: -2s;
-  fill: #A13027; /* Cor vermelha escura */
+  fill: #c03033; /* Cor vermelha escura */
 }
 
 .hero .wave4 use {
