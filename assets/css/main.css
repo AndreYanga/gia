@@ -11,7 +11,7 @@
   --nav-font: "Poppins", sans-serif;
 
   /* Updated Colors */
-  --background-color: #FFFEFE; /* Background color for the entire website, including individual sections */
+  --background-color: #f3f5f7; /* Background color for the entire website, including individual sections */
   --default-color: #000000; /* Default color used for the majority of the text content across the entire website (Black) */
   --heading-color: #c03033; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #de9f35; /* Accent color that represents your brand on the website. Used for buttons, links, and other elements that need to stand out */
@@ -23,7 +23,7 @@
 :root {
   --nav-color: #000000;  /* The default color of the main navmenu links */
   --nav-hover-color: #de9f35; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #FFFEFE; /* Used as the background color for mobile navigation menu */
+  --nav-mobile-background-color: #f3f5f7; /* Used as the background color for mobile navigation menu */
 }
 
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 .php-email-form .error-message {
   display: none;
   background: #c03033;
-  color: #ffffff;
+  color: #f3f5f7;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .php-email-form .sent-message {
   display: none;
-  color: #ffffff;
+  color: #f3f5f7;
   background: #059652;
   text-align: center;
   padding: 15px;
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #FFFEFE;
+  --background-color: #f3f5f7;
   --default-color: #000000;
   --heading-color: #c03033;
   color: var(--default-color);
@@ -666,7 +666,7 @@ section,
 .hero .wave1 use {
   animation: move-forever1 10s linear infinite;
   animation-delay: -2s;
-  fill: #FFFEFE; /* Cor clara */
+  fill: #f3f5f7; /* Cor clara */
   opacity: 0.6;
 }
 
